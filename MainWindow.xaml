@@ -1,0 +1,11 @@
+﻿<Window x:Class="Gourmet.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Jogo Gourmet" Height="150" Width="300">
+    <Grid>
+        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+            <TextBlock Text="Pense em um prato que você gosta." HorizontalAlignment="Center" FontSize="16"/>
+            <Button x:Name="btnOK" Content="OK" Click="btnOK_Click" Width="80" Margin="5"/>
+        </StackPanel>
+    </Grid>
+</Window>
